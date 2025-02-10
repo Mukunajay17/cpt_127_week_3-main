@@ -1,15 +1,19 @@
 
-# Objective: Write a program that takes a list of numbers and prints out the sum, average, and largest number in the list.
 
+# List of numbers
+numbers = [17,7,11,5,20]
 
+# Calculate the sum of the numbers
+sum_of_numbers = sum(numbers)
 
-# Problem 1: Write a program that takes a list of numbers and prints out the sum of all the numbers in the list.
+# Calculate the average 
+average = sum_of_numbers / len(numbers)
 
+# Find the largest number 
+largest_number = max(numbers)
 
-
-# Problem 2: Write a program that takes a list of numbers and prints out the average of all the numbers in the list.
-
-
-
-# Problem 3: Write a program that takes a list of numbers and prints out the largest number in the list.
+# Print the results
+print("The Sum is:", sum_of_numbers)
+print("The Average is:", average)
+print("The Largets Number is:", largest_number)
 
